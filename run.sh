@@ -1,0 +1,1 @@
+docker run -v /var/docker-data/bitbucket:/var/atlassian/application-data/bitbucket -v /var/docker-data/bitbucket-conf:/opt/atlassian/bitbucket/conf -d  -p 7990:7990 -p 7999:7999 ivantichy/bitbucket-server
